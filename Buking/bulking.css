@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#mealPlan {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.day {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.day:hover {
+    background-color: red;
+}
+
+#mealModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    text-align: center;
+}
+
+#mealModalClose {
+    cursor: pointer;
+    float: right;
+}
